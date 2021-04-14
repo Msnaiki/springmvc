@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{72B219DB-0FD7-4CC8-A30C-8C64326FA3F1}" Label="" LastModificationDate="1615197324" Name="Diagramme de classes UML_2" Objects="25" Symbols="3" Target="Analyse" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{72B219DB-0FD7-4CC8-A30C-8C64326FA3F1}" Label="" LastModificationDate="1615366546" Name="Diagramme de classes UML_2" Objects="29" Symbols="5" Target="Analyse" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -12,7 +12,7 @@
 <a:Code>DiagrammedeclassesUML_2</a:Code>
 <a:CreationDate>1615194701</a:CreationDate>
 <a:Creator>Admin</a:Creator>
-<a:ModificationDate>1615196873</a:ModificationDate>
+<a:ModificationDate>1615218494</a:ModificationDate>
 <a:Modifier>Admin</a:Modifier>
 <a:PackageOptionsText>[FolderOptions]
 
@@ -968,7 +968,7 @@ NameToCode=No</a:ModelOptionsText>
 <a:Code>DiagrammeClasses_1</a:Code>
 <a:CreationDate>1615194701</a:CreationDate>
 <a:Creator>Admin</a:Creator>
-<a:ModificationDate>1615196873</a:ModificationDate>
+<a:ModificationDate>1615218494</a:ModificationDate>
 <a:Modifier>Admin</a:Modifier>
 <a:DisplayPreferences>[DisplayPreferences]
 
@@ -1382,9 +1382,9 @@ Shadow=0</a:DisplayPreferences>
 <c:Symbols>
 <o:AssociationSymbol Id="o5">
 <a:CreationDate>1615196873</a:CreationDate>
-<a:ModificationDate>1615196873</a:ModificationDate>
-<a:Rect>((-9538,19320), (1937,25246))</a:Rect>
-<a:ListOfPoints>((1937,25246),(-3853,25246),(-3853,19320),(-9538,19320))</a:ListOfPoints>
+<a:ModificationDate>1615218490</a:ModificationDate>
+<a:Rect>((-9538,19320), (1037,25396))</a:Rect>
+<a:ListOfPoints>((1037,25396),(-3853,25396),(-3853,19320),(-9538,19320))</a:ListOfPoints>
 <a:CornerStyle>1</a:CornerStyle>
 <a:ArrowStyle>8</a:ArrowStyle>
 <a:LineColor>16744448</a:LineColor>
@@ -1401,11 +1401,32 @@ MULA 0 Microsoft Sans Serif,8,N</a:FontList>
 <o:Association Ref="o8"/>
 </c:Object>
 </o:AssociationSymbol>
+<o:AssociationSymbol Id="o9">
+<a:CreationDate>1615218494</a:CreationDate>
+<a:ModificationDate>1615218494</a:ModificationDate>
+<a:Rect>((6038,8802), (13688,26974))</a:Rect>
+<a:ListOfPoints>((6038,25800),(13688,25800),(13688,8802))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>8</a:ArrowStyle>
+<a:LineColor>16744448</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>DISPNAME 0 Microsoft Sans Serif,8,N
+MULA 0 Microsoft Sans Serif,8,N</a:FontList>
+<c:SourceSymbol>
+<o:ClassSymbol Ref="o6"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:ClassSymbol Ref="o10"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:Association Ref="o11"/>
+</c:Object>
+</o:AssociationSymbol>
 <o:ClassSymbol Id="o6">
 <a:CreationDate>1615194710</a:CreationDate>
-<a:ModificationDate>1615196575</a:ModificationDate>
+<a:ModificationDate>1615218490</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((530,17031), (8845,27667))</a:Rect>
+<a:Rect>((-370,17181), (7945,27817))</a:Rect>
 <a:LineColor>16744448</a:LineColor>
 <a:FillColor>16770222</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -1421,7 +1442,7 @@ LABL 0 Microsoft Sans Serif,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Class Ref="o9"/>
+<o:Class Ref="o12"/>
 </c:Object>
 </o:ClassSymbol>
 <o:ClassSymbol Id="o7">
@@ -1444,7 +1465,32 @@ LABL 0 Microsoft Sans Serif,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Class Ref="o10"/>
+<o:Class Ref="o13"/>
+</c:Object>
+</o:ClassSymbol>
+<o:ClassSymbol Id="o10">
+<a:CreationDate>1615218423</a:CreationDate>
+<a:ModificationDate>1615366546</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((13025,4575), (18251,11283))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>16744448</a:LineColor>
+<a:FillColor>16770222</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Microsoft Sans Serif,8,N
+DISPNAME 0 Microsoft Sans Serif,8,N
+CNTR 0 Microsoft Sans Serif,8,N
+Attributes 0 Microsoft Sans Serif,8,N
+ClassPrimaryAttribute 0 Microsoft Sans Serif,8,U
+Operations 0 Microsoft Sans Serif,8,N
+InnerClassifiers 0 Microsoft Sans Serif,8,N
+LABL 0 Microsoft Sans Serif,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:Object>
+<o:Class Ref="o14"/>
 </c:Object>
 </o:ClassSymbol>
 </c:Symbols>
@@ -1454,17 +1500,17 @@ LABL 0 Microsoft Sans Serif,8,N</a:FontList>
 <o:ClassDiagram Ref="o4"/>
 </c:DefaultDiagram>
 <c:Classes>
-<o:Class Id="o9">
+<o:Class Id="o12">
 <a:ObjectID>29D8E6EB-ADC9-40B2-8C4E-CAB57D41220B</a:ObjectID>
 <a:Name>users</a:Name>
 <a:Code>users</a:Code>
 <a:CreationDate>1615194710</a:CreationDate>
 <a:Creator>Admin</a:Creator>
-<a:ModificationDate>1615197324</a:ModificationDate>
+<a:ModificationDate>1615218546</a:ModificationDate>
 <a:Modifier>Admin</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
-<o:Attribute Id="o11">
+<o:Attribute Id="o15">
 <a:ObjectID>5D79C9D4-ACA0-47A3-8957-43DD5A88660F</a:ObjectID>
 <a:Name>id</a:Name>
 <a:Code>id</a:Code>
@@ -1475,7 +1521,7 @@ LABL 0 Microsoft Sans Serif,8,N</a:FontList>
 <a:DataType>int</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o12">
+<o:Attribute Id="o16">
 <a:ObjectID>3F678FDD-5233-4D8C-A406-47186C58B1A6</a:ObjectID>
 <a:Name>nom</a:Name>
 <a:Code>nom</a:Code>
@@ -1486,7 +1532,7 @@ LABL 0 Microsoft Sans Serif,8,N</a:FontList>
 <a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o13">
+<o:Attribute Id="o17">
 <a:ObjectID>6FAF22D4-26B7-4E93-9149-84B7A92B642D</a:ObjectID>
 <a:Name>email</a:Name>
 <a:Code>email</a:Code>
@@ -1497,7 +1543,7 @@ LABL 0 Microsoft Sans Serif,8,N</a:FontList>
 <a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o14">
+<o:Attribute Id="o18">
 <a:ObjectID>13E54C62-E3C1-450A-BC09-FED4BAEDC2FD</a:ObjectID>
 <a:Name>password</a:Name>
 <a:Code>password</a:Code>
@@ -1508,7 +1554,7 @@ LABL 0 Microsoft Sans Serif,8,N</a:FontList>
 <a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o15">
+<o:Attribute Id="o19">
 <a:ObjectID>0165BADC-4BDD-4D32-A220-91A0262C22B7</a:ObjectID>
 <a:Name>valide</a:Name>
 <a:Code>valide</a:Code>
@@ -1519,7 +1565,7 @@ LABL 0 Microsoft Sans Serif,8,N</a:FontList>
 <a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o16">
+<o:Attribute Id="o20">
 <a:ObjectID>FA90D24B-05D1-4DF6-80FD-E1CB4DA30613</a:ObjectID>
 <a:Name>role</a:Name>
 <a:Code>role</a:Code>
@@ -1532,7 +1578,7 @@ LABL 0 Microsoft Sans Serif,8,N</a:FontList>
 </o:Attribute>
 </c:Attributes>
 <c:Operations>
-<o:Operation Id="o17">
+<o:Operation Id="o21">
 <a:ObjectID>BBDEF15D-4150-4B62-8041-B4977AC13088</a:ObjectID>
 <a:Name>register</a:Name>
 <a:Code>register</a:Code>
@@ -1542,7 +1588,7 @@ LABL 0 Microsoft Sans Serif,8,N</a:FontList>
 <a:Modifier>Admin</a:Modifier>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 </o:Operation>
-<o:Operation Id="o18">
+<o:Operation Id="o22">
 <a:ObjectID>156CE167-C526-43B1-9D70-1C7C5654815D</a:ObjectID>
 <a:Name>login</a:Name>
 <a:Code>login</a:Code>
@@ -1552,7 +1598,7 @@ LABL 0 Microsoft Sans Serif,8,N</a:FontList>
 <a:Modifier>Admin</a:Modifier>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 </o:Operation>
-<o:Operation Id="o19">
+<o:Operation Id="o23">
 <a:ObjectID>F10C0B1D-EB38-4F71-B2D0-9219B94D7590</a:ObjectID>
 <a:Name>valid inscription</a:Name>
 <a:Code>validinscription</a:Code>
@@ -1564,7 +1610,7 @@ LABL 0 Microsoft Sans Serif,8,N</a:FontList>
 </o:Operation>
 </c:Operations>
 <c:Identifiers>
-<o:Identifier Id="o20">
+<o:Identifier Id="o24">
 <a:ObjectID>97FF73C7-3ADC-4670-8217-FA78697E6A18</a:ObjectID>
 <a:Name>id</a:Name>
 <a:Code>id</a:Code>
@@ -1575,7 +1621,7 @@ LABL 0 Microsoft Sans Serif,8,N</a:FontList>
 </o:Identifier>
 </c:Identifiers>
 </o:Class>
-<o:Class Id="o10">
+<o:Class Id="o13">
 <a:ObjectID>FBB1B05D-D051-4250-962A-EA1085354274</a:ObjectID>
 <a:Name>reservations</a:Name>
 <a:Code>reservations</a:Code>
@@ -1585,7 +1631,7 @@ LABL 0 Microsoft Sans Serif,8,N</a:FontList>
 <a:Modifier>Admin</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
-<o:Attribute Id="o21">
+<o:Attribute Id="o25">
 <a:ObjectID>BED7104B-A20E-4A11-8E8F-4A7EA441E099</a:ObjectID>
 <a:Name>id</a:Name>
 <a:Code>id</a:Code>
@@ -1596,7 +1642,7 @@ LABL 0 Microsoft Sans Serif,8,N</a:FontList>
 <a:DataType>int</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o22">
+<o:Attribute Id="o26">
 <a:ObjectID>C95A571A-737E-411F-8FD1-120E36C74C1B</a:ObjectID>
 <a:Name>date</a:Name>
 <a:Code>date</a:Code>
@@ -1607,7 +1653,7 @@ LABL 0 Microsoft Sans Serif,8,N</a:FontList>
 <a:DataType>Date</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o23">
+<o:Attribute Id="o27">
 <a:ObjectID>FDB13AAF-BE43-4151-953C-6EC528A30CE4</a:ObjectID>
 <a:Name>valide</a:Name>
 <a:Code>valide</a:Code>
@@ -1620,7 +1666,7 @@ LABL 0 Microsoft Sans Serif,8,N</a:FontList>
 </o:Attribute>
 </c:Attributes>
 <c:Operations>
-<o:Operation Id="o24">
+<o:Operation Id="o28">
 <a:ObjectID>4246931B-4312-4C7D-8C27-F0E717F31D3B</a:ObjectID>
 <a:Name>addreserve</a:Name>
 <a:Code>addreserve</a:Code>
@@ -1630,7 +1676,7 @@ LABL 0 Microsoft Sans Serif,8,N</a:FontList>
 <a:Modifier>Admin</a:Modifier>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 </o:Operation>
-<o:Operation Id="o25">
+<o:Operation Id="o29">
 <a:ObjectID>D43F5898-26BD-4A01-B5FA-8167A55883A8</a:ObjectID>
 <a:Name>validreserve</a:Name>
 <a:Code>validreserve</a:Code>
@@ -1640,7 +1686,7 @@ LABL 0 Microsoft Sans Serif,8,N</a:FontList>
 <a:Modifier>Admin</a:Modifier>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 </o:Operation>
-<o:Operation Id="o26">
+<o:Operation Id="o30">
 <a:ObjectID>2379A113-DC21-4C60-90B1-FED345523B8A</a:ObjectID>
 <a:Name>viewhistory</a:Name>
 <a:Code>viewhistory</a:Code>
@@ -1651,6 +1697,62 @@ LABL 0 Microsoft Sans Serif,8,N</a:FontList>
 <a:TemplateBody>%DefaultBody%</a:TemplateBody>
 </o:Operation>
 </c:Operations>
+</o:Class>
+<o:Class Id="o14">
+<a:ObjectID>547D0041-A461-426C-B0CE-2C0D03059873</a:ObjectID>
+<a:Name>Classe_3</a:Name>
+<a:Code>Classe_3</a:Code>
+<a:CreationDate>1615218423</a:CreationDate>
+<a:Creator>Admin</a:Creator>
+<a:ModificationDate>1615366543</a:ModificationDate>
+<a:Modifier>Admin</a:Modifier>
+<a:UseParentNamespace>0</a:UseParentNamespace>
+<c:Attributes>
+<o:Attribute Id="o31">
+<a:ObjectID>9C34F9E4-5AC4-4640-835F-D77A59443437</a:ObjectID>
+<a:Name>id</a:Name>
+<a:Code>id</a:Code>
+<a:CreationDate>1615218432</a:CreationDate>
+<a:Creator>Admin</a:Creator>
+<a:ModificationDate>1615218474</a:ModificationDate>
+<a:Modifier>Admin</a:Modifier>
+<a:DataType>int</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+<o:Attribute Id="o32">
+<a:ObjectID>0858E6AE-103C-4421-972F-135BA5CF5533</a:ObjectID>
+<a:Name>date</a:Name>
+<a:Code>date</a:Code>
+<a:CreationDate>1615218432</a:CreationDate>
+<a:Creator>Admin</a:Creator>
+<a:ModificationDate>1615218474</a:ModificationDate>
+<a:Modifier>Admin</a:Modifier>
+<a:DataType>int</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+<o:Attribute Id="o33">
+<a:ObjectID>C504EBD2-167F-4828-AD07-C2EF8585AF22</a:ObjectID>
+<a:Name>nbr</a:Name>
+<a:Code>nbr</a:Code>
+<a:CreationDate>1615218432</a:CreationDate>
+<a:Creator>Admin</a:Creator>
+<a:ModificationDate>1615218474</a:ModificationDate>
+<a:Modifier>Admin</a:Modifier>
+<a:DataType>int</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+<o:Attribute Id="o34">
+<a:ObjectID>7FFA0242-06E6-4CF9-8D37-0BF5099205B2</a:ObjectID>
+<a:Name>plein</a:Name>
+<a:Code>plein</a:Code>
+<a:CreationDate>1615366534</a:CreationDate>
+<a:Creator>Admin</a:Creator>
+<a:ModificationDate>1615366543</a:ModificationDate>
+<a:Modifier>Admin</a:Modifier>
+<a:DataType>int</a:DataType>
+<a:Attribute.Visibility>-</a:Attribute.Visibility>
+</o:Attribute>
+</c:Attributes>
 </o:Class>
 </c:Classes>
 <c:Associations>
@@ -1665,15 +1767,32 @@ LABL 0 Microsoft Sans Serif,8,N</a:FontList>
 <a:RoleAMultiplicity>1..1</a:RoleAMultiplicity>
 <a:RoleBMultiplicity>0..*</a:RoleBMultiplicity>
 <c:Object1>
-<o:Class Ref="o10"/>
+<o:Class Ref="o13"/>
 </c:Object1>
 <c:Object2>
-<o:Class Ref="o9"/>
+<o:Class Ref="o12"/>
+</c:Object2>
+</o:Association>
+<o:Association Id="o11">
+<a:ObjectID>DF8456A5-8495-4F22-9524-8A233BEB40AB</a:ObjectID>
+<a:Name>Association_2</a:Name>
+<a:Code>Association_2</a:Code>
+<a:CreationDate>1615218494</a:CreationDate>
+<a:Creator>Admin</a:Creator>
+<a:ModificationDate>1615218546</a:ModificationDate>
+<a:Modifier>Admin</a:Modifier>
+<a:RoleAMultiplicity>1..1</a:RoleAMultiplicity>
+<a:RoleBMultiplicity>0..*</a:RoleBMultiplicity>
+<c:Object1>
+<o:Class Ref="o14"/>
+</c:Object1>
+<c:Object2>
+<o:Class Ref="o12"/>
 </c:Object2>
 </o:Association>
 </c:Associations>
 <c:TargetModels>
-<o:TargetModel Id="o27">
+<o:TargetModel Id="o35">
 <a:ObjectID>226476A0-716C-4497-A1C8-7E507994D47E</a:ObjectID>
 <a:Name>Analyse</a:Name>
 <a:Code>Analysis</a:Code>
